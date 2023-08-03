@@ -21,6 +21,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 #header{
@@ -133,7 +134,7 @@ body {
 
   width: 0px;
   height: 100%;
-  background: var(--color-pink);
+  background: var(--color-black);
 
   animation: written_text_box 1s ease;
   animation-delay: .5s;
@@ -266,9 +267,12 @@ body {
 }
 
 .profile-photo {
-  width: 100%;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
 }
+
+
 
 .links a img {
   width: 30px;
@@ -715,7 +719,7 @@ body {
 
 @keyframes written_text_name {
   100% {
-    color: var(--color-blue);
+    color: var(--color-white);
   }
 }
 
